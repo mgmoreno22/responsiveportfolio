@@ -8,10 +8,48 @@
 
         <!--Link to Bootstrap and CSS-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type = "text/css" href="./Assets/style.css">
     </head>
 
     <body>
-        <h1>Michael Moreno</h1>
+        <header class="container-fluid" id="headerContainer">
+            <!-- Nav Bar with Bootstrap elements -->
+            <nav class="navbar navbar-expand-md">
+                <h1 class="navbar-brand head" id="nameBox">Michael Moreno</h1>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="container-fluid col-md-8 col-sm-12 contentContainer">
+                <article class="row">
+                    <div class="col-12">
+                        <h2>About Me</h2>
+                        <hr>
+                    </div>
+                    <div class="col-12">
+                        <img class="aboutImg" src="https://i.imgur.com/R8mw5CS.jpg" alt="Photo of Michael Moreno"/>
+                        <p class="aboutText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia eligendi sunt nihil accusantium cumque nostrum maxime adipisci. Debitis voluptatum soluta velit nam porro amet corporis perspiciatis consequuntur architecto, vel ut?</p>
+                        <p class="aboutText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut rem, doloribus cumque eaque itaque iusto veniam odit porro eius fugit, molestiae consequuntur velit nisi labore.</p>
+                    </div>
+                </article>
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid fixed-bottom footerContainer">
+                <p class="text-center">&copy;Copyright</p>
+            </div>
+        </footer>
     </body>
 </html>

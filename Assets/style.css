@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #20B2AA;
+}
+
+body {
+    background-color: lightgrey;
+}
+header {
+    border-bottom: #ccc solid 1px;
+    background-color: white;
+    margin: 0px;
+}
+
+p {
+    line-height: 30px;
+}
+
+.footerContainer {
+    background-color: #404040;
+    padding-top: 20px;
+    height: 70px;
+    font-size: 12px;
+    color: #F2F2F2;
+    border-top: 6px solid #20B2AA;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#headerContainer {
+    margin-bottom: 0px;
+}
+
+#nameBox {
+    display: flex;
+    width: auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-color: #20B2AA;
+    padding: 10px;
+}
+
+/********** Start of Nav Bar ***********/
+.nav-link {
+    color: gray
+}
+
+a.nav-link:hover {
+    color: #00BFFF;
+}
+
+a.active {
+    color: #20B2AA;
+}
+
+/*********** End of Nav Bar ***********/
+
+.contentContainer {
+    background-color: white;
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+/********** Start of About Me **********/
+.aboutImg {
+    width: 250px;
+    float: left;
+    margin-right: 10px;
+}
+
+.aboutText {
+    size: 16px;
+}
+
+@media only screen and (max-width: 640px) {
+    .aboutImg {
+        display: block;
+        width: 100%;
+    }
+}
+
+/*********** End of About Me ***********/
+
+/********** Start of Portfolio **********/
+.card {
+    margin: 10px;
+}
+.cardImg {
+    max-width: 250px;
+}
+
+.card-title {
+    display: block;
+    margin-top: 80%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #20B2AA;
+}
+
+/*********** End of Portfolio ***********/
+
+/********** Start of Contact **********/
+.formBtn {
+    background-color: #20B2AA;
+    border-color: white;
+}
+
+/*********** End of Contact ***********/
+
+/********** Start of Screen Size CSS **********/
+
+/* Small Sreens */
+@media only screen and (max-width: 767px) {
+    /* Nav Bar */
+    .headerContainer {
+        padding: 0;
+        margin: 0;
+    }
+    
+    #nameBox {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    /* About Section */
+    .aboutImg {
+        display: block;
+        width: 100%;
+    }
+
+    /* Portfolio Section */
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+}
+
+/*********** End of Screen Size CSS ***********/
