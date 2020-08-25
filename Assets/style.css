@@ -108,6 +108,15 @@ a.active {
     background-color: #20B2AA;
 }
 
+a.projectLink {
+    text-decoration: none;
+    color: white;
+}
+
+a.projectLink:hover {
+    color: lightgray;
+}
+
 /*********** End of Portfolio ***********/
 
 /********** Start of Contact **********/
