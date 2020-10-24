@@ -22,12 +22,14 @@ p {
 }
 
 .footerContainer {
+    display: flex;
     background-color: #404040;
     padding-top: 20px;
     height: 70px;
     font-size: 12px;
     color: #F2F2F2;
     border-top: 6px solid #20B2AA;
+    margin-top: auto;
 }
 
 .navbar {
